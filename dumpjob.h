@@ -1,5 +1,4 @@
-#ifndef DUMPJOB_H
-#define DUMPJOB_H
+#pragma once
 
 #include <QObject>
 #include <QByteArray>
@@ -41,5 +40,3 @@ private:
     static const QByteArray m_userAgent;
     static QDir m_outputDir;
 };
-
-#endif // DUMPJOB_H
